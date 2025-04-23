@@ -1,0 +1,11 @@
+## sometimes you might get confused on the use pf paranthese, like when to use it and when not to use it.
+1. when you are trying to call a function like list.insert() or liste.append() or dictionary.keys or dictionary.items() 
+2. You are telling python "Hey run this action now!" and those methods must be followed by  parantheses 
+3. But when you are trying to access Dictionaries or lists ot tuples 
+4. Say dictionary or lists[0] or dictionary["satus"] you dont need parantheses
+## These are data structures not functions so you dont call them 
+
+### 🧠 If it does something (like .lower(), .items(), .append()), it needs "()"
+
+### 📦 If it just holds data (like a list or dict), it doesn’t need "()"
+
